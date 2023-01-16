@@ -7,6 +7,22 @@
 #   Character.create(name: "Luke", movie: movies.first)
 Product.delete_all
 
+Product.create!(title: 'Build Chatbot Interactions new',
+                description:
+                  %{<p>
+<em>Responsive, Intuitive Interfaces with Ruby</em>
+The next step in the evolution of user interfaces is here.
+Chatbots let your users interact with your service in their
+own natural language. Use free and open source tools along
+with Ruby to build creative, useful, and unexpected interactions
+for users. Take advantage of the Lita framework’s step-by-step
+implementation strategy to simplify bot development and testing.
+From novices to experts, chatbots are an area in which everyone
+can participate. Exercise your creativity by creating chatbot
+skills for communicating, information, and fun.
+</p>},
+                image_url: 'https://burst.shopifycdn.com/photos/person-holds-a-book-over-a-stack-and-turns-the-page.jpg',
+                price: 20.00)
 Product.create!(title: 'Build Chatbot Interactions',
                 description:
                   %{<p>
@@ -21,5 +37,21 @@ From novices to experts, chatbots are an area in which everyone
 can participate. Exercise your creativity by creating chatbot
 skills for communicating, information, and fun.
 </p>},
-                image_url: 'https://burst.shopifycdn.com/photos/person-holds-a-book-over-a-stack-and-turns-the-page.jpg?width=1200&format=pjpg&exif=0&iptc=0',
+                image_url: 'https://burst.shopifycdn.com/photos/person-holds-a-book-over-a-stack-and-turns-the-page.jpg',
+                price: 20.00)
+Product.create!(title: 'Build Chatbot Interactions new new',
+                description:
+                  %{<p>
+<em>Responsive, Intuitive Interfaces with Ruby</em>
+The next step in the evolution of user interfaces is here.
+Chatbots let your users interact with your service in their
+own natural language. Use free and open source tools along
+with Ruby to build creative, useful, and unexpected interactions
+for users. Take advantage of the Lita framework’s step-by-step
+implementation strategy to simplify bot development and testing.
+From novices to experts, chatbots are an area in which everyone
+can participate. Exercise your creativity by creating chatbot
+skills for communicating, information, and fun.
+</p>},
+                image_url: 'https://burst.shopifycdn.com/photos/person-holds-a-book-over-a-stack-and-turns-the-page.jpg',
                 price: 20.00)
